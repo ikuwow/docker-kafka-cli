@@ -15,7 +15,9 @@ TODO: Automate
 simple:
 ```
 docker build --no-cache -t ikuwow/kafka-cli:0.1.0 .
+docker tag ikuwow/kafka-cli:0.1.0 ikuwow/kafka-cli:latest
 docker push ikuwow/kafka-cli:0.1.0
+docker push ikuwow/kafka-cli:latest
 ```
 
 For multi platforms:
